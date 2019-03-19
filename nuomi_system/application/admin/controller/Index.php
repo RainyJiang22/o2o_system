@@ -16,4 +16,9 @@ class Index extends Controller
     {
         return $this->fetch();
     }
+
+    public function welcome()
+    {
+        return "欢迎来到o2o后台";
+    }
 }

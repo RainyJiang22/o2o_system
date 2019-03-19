@@ -23,4 +23,14 @@ class Category extends Controller
     {
         return $this->fetch();
     }
+
+    /*
+     * 保存数据
+     */
+    public function save()
+    {
+       // print_r($_POST);
+     //   print_r(input('post.'));
+       // print_r(request()->post());
+    }
 }

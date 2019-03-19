@@ -22,7 +22,11 @@ class Category extends Controller
 
     public function index()
     {
-        return $this->fetch();
+        $parentId = input('get.parent_id',0,'intval');
+        $categorys = $this->obj->getFirstCategorys($parentId);
+        return $this->fetch('',[
+            'categorys' => $categorys,
+        ]);
     }
 
     public function add()

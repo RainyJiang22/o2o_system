@@ -32,5 +32,12 @@ class Category extends Controller
        // print_r($_POST);
      //   print_r(input('post.'));
        // print_r(request()->post());
+        $data = input('post.');
+        $data['status'] = 10;
+        $validate = validate('Category');
+
+        if (!$validate->scene('add')->check($data)){
+            $this->error($validate->getError());
+        }
     }
 }

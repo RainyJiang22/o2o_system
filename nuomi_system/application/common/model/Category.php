@@ -31,6 +31,7 @@ class Category extends Model
 
         $order = [
             'id' => 'desc',
+
         ];
 
         return $this->where($data)

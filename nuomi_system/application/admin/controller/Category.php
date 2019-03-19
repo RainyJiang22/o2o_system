@@ -41,6 +41,24 @@ class Category extends Controller
     /**
      * 编辑功能
      */
+     public function edit($id=0){
+
+         if(intval($id) <1){
+             $this->error('参数不合法');
+         }
+
+         $category=$this->obj->get($id);
+       //  print_r($category);
+
+         $categorys = $this->obj->getNormlFirstCategory();
+         return $this->fetch('',[
+             'categorys'=>$categorys,
+             'category'=>$category
+
+         ]);
+
+
+     }
 
     /*
      * 保存数据

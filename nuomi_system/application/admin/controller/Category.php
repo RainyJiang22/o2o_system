@@ -38,6 +38,10 @@ class Category extends Controller
         ]);
     }
 
+    /**
+     * 编辑功能
+     */
+
     /*
      * 保存数据
      */

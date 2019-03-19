@@ -49,7 +49,7 @@ class Category extends Model
 
 
         $result = $this->where($data)
-            ->order($order)->select();
+            ->order($order)->paginate();
 
 //        echo $this->getLastSql();
 

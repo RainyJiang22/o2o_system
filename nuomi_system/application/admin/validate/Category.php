@@ -28,5 +28,6 @@ class Category extends Validate
 
         'add' => ['name','parent_id','id'], //添加
         'listorder' =>['id','listorder'], //排序
+        'status'=>['id','status'], //修改状态
     ];
 }

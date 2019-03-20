@@ -68,13 +68,25 @@ class Category extends Controller
        // print_r($_POST);
      //   print_r(input('post.'));
        // print_r(request()->post());
+
+
+        /**
+         * 做校验
+         */
+        if (!request()->isPost()){
+            $this->error('请求失败');
+        }
         $data = input('post.');
-        $data['status'] = 10;
+        //$data['status'] = 10;
         $validate = validate('Category');
 
         if (!$validate->scene('add')->check($data)){
             $this->error($validate->getError());
         }
+        if (!empty($data['id'])){
+            return $this->update($data);
+        }
+
 
          //把$data提交到model层
         $res = $this->obj->add($data);
@@ -84,5 +96,20 @@ class Category extends Controller
       }else{
           $this->error('新增失败');
       }
+    }
+
+
+    /**
+     * 更新操作
+     */
+
+    public function update($data){
+        $res = $this->obj->save($data,['id'=> intval($data['id'])]);
+
+        if ($res){
+            $this->success('更新成功');
+        }else{
+            $this->error('更新失败');
+        }
     }
 }

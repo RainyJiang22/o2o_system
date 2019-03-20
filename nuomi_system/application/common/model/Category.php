@@ -45,6 +45,7 @@ class Category extends Model
         ];
 
         $order = [
+            'listorder' => 'desc',
             'id' => 'desc',
         ];
 

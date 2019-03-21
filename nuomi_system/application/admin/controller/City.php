@@ -13,6 +13,12 @@ use think\Controller;
 
 class City extends Controller
 {
+    private $obj;
+    public function _initialize()
+    {
+         $this->obj = model('City');
+    }
+
 
     public function index(){
         return $this->fetch();
@@ -24,7 +30,11 @@ class City extends Controller
      * 添加城市
      */
     public function add(){
-        return $this->fetch();
+        $citys = $this->obj->getNormlFirstCity();
+
+        return $this->fetch('',[
+            'citys'=>$citys,
+        ]);
     }
 
 
@@ -40,6 +50,15 @@ class City extends Controller
 
         if (!$validate->scene('add')->check($data)){
             $this->error($validate->getError());
+        }
+
+        //提交到model层
+        $res = $this->obj->add($data);
+
+        if ($res){
+            $this->success('新增成功');
+        }else{
+            $this->error('新增失败');
         }
     }
 }

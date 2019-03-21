@@ -21,7 +21,11 @@ class City extends Controller
 
 
     public function index(){
-        return $this->fetch();
+        $parentId = input('get.parent_id',0,'intval');
+        $citys =$this->obj->getFirstCity($parentId);
+        return $this->fetch('',[
+            'citys'=>$citys,
+        ]);
     }
 
 

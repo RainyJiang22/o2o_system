@@ -38,5 +38,23 @@ class City extends Model
     }
 
 
+    public function getFirstCity($parentId = 0){
+
+        $data=[
+            'parent_id'=>$parentId,
+            'status'=>['neq',-1],
+        ];
+
+        $order=[
+           'id'=>'desc',
+        ];
+
+
+        $result = $this->where($data)
+            ->order($order)->select();
+
+
+        return $result;
+    }
 
 }

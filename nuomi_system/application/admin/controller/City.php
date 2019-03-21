@@ -34,6 +34,12 @@ class City extends Controller
     public function save(){
        // print_r($_POST);
 
-        
+        $data = input('post.');
+        $validate = validate('city');
+
+
+        if (!$validate->scene('add')->check($data)){
+            $this->error($validate->getError());
+        }
     }
 }

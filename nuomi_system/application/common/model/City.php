@@ -51,7 +51,7 @@ class City extends Model
 
 
         $result = $this->where($data)
-            ->order($order)->select();
+            ->order($order)->paginate();
 
 
         return $result;

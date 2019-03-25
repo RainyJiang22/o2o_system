@@ -28,6 +28,8 @@ class Index extends Controller
 
     public function welcome()
     {
+       // \phpmailer\Email::send('3434481891@qq.com','未来科技','恭喜你收到答复');
+       // return '发送邮件成功';
         return "欢迎来到o2o后台";
     }
 }

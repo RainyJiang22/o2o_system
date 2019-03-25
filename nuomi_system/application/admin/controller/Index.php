@@ -17,6 +17,11 @@ class Index extends Controller
         return $this->fetch();
     }
 
+    public function test()
+    {
+        \Map::getLngLat('广东深圳龙岗区布吉');
+    }
+
     public function welcome()
     {
         return "欢迎来到o2o后台";

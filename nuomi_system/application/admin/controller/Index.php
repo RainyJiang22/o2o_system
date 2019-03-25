@@ -22,6 +22,10 @@ class Index extends Controller
         \Map::getLngLat('广东深圳龙岗区布吉');
     }
 
+    public function map(){
+        return \Map::staticimage('广东深圳龙岗区布吉');
+    }
+
     public function welcome()
     {
         return "欢迎来到o2o后台";

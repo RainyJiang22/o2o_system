@@ -12,6 +12,12 @@ class Register extends Controller
 {
 
     public function index(){
-        return $this->fetch();
+
+        //获取一级城市的数据
+        $citys = model('City')->getNormalCitysByParentId();
+
+        return $this->fetch('',[
+            'citys'=>$citys,
+        ]);
     }
 }

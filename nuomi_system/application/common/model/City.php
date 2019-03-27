@@ -58,4 +58,22 @@ class City extends Model
         return $result;
     }
 
+
+    /**
+     * 获取正常的Normal城市
+     */
+    public function getNormalCitysByParentId($parentId=0){
+        $data=[
+          'status'=>1,
+          'parent_id'=>$parentId,
+        ];
+
+        $order=[
+            'id'=>'desc',
+        ];
+
+        return $this->where($data)
+            ->order($order)->select();
+    }
+
 }

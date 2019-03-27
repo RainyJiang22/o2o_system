@@ -17,9 +17,9 @@
 				<span class="select-box">
 				<select name="city_id" class="select cityId">
 					<option value="0">--请选择--</option>
-					
-					<option value=""></option>
-					
+					{volist name="citys" id="vo"}
+					<option value="{$vo.id}">{$vo.name}</option>
+					{/volist}
 				</select>
 				</span>
 			</div>
@@ -173,6 +173,11 @@
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
 <!--分配编辑器-->
+<script>
+	var SCOPE = {
+	    'city_url':'{:url('api/city/getCitysByParentId')}'
+	}
+</script>
 <script>
 $(function(){
 	var ue = UE.getEditor('editor');

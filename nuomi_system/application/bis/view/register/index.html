@@ -2,7 +2,7 @@
 {include file="public/header" /}
 <div class="cl pd-5 bg-1 bk-gray mt-20"> <h1>商户入驻申请</h1></div>
 <article class="page-container">
-	<form class="form form-horizontal"  method="post" action="">
+	<form class="form form-horizontal"  method="post" action="{:url('register/add')}">
 		基本信息：
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>商户名称：</label>
@@ -13,14 +13,14 @@
 
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>所属城市：</label>
-			<div class="formControls col-xs-8 col-sm-2">
+			<div class="formControls col-xs-8 col-sm-2"> 
 				<span class="select-box">
 				<select name="city_id" class="select cityId">
 					<option value="0">--请选择--</option>
 					{volist name="citys" id="vo"}
 					  <option value="{$vo.id}">{$vo.name}</option>
 				    {/volist}
-
+					
 				</select>
 				</span>
 			</div>
@@ -178,7 +178,8 @@
     var SCOPE = {
         'city_url' : '{:url('api/city/getCitysByParentId')}',
         'category_url' : '{:url('api/category/getCategoryByParentId')}',
-
+        'uploadify_swf' : '__STATIC__/admin/uploadify/uploadify.swf',
+        'image_upload' : '{:url('api/image/upload')}',
     };
 </script>
 <!--分配编辑器-->

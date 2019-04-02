@@ -32,20 +32,23 @@ class Register extends Controller
 
         //获取表单的值
         $data = input('post.');
-        //检验数据
+        //商户基本信息校验
        //print_r($data);
         $validate = validate('Bis');
         if (!$validate->scene('add')->check($data)){
-          //  $this->error($validate->getError());
+               $this->error($validate->getError());
         }
+
 
         //获取经纬度
-       $lnglat =  \Map::getLngLat($data['address']);
-        if(empty($lnglat) || $lnglat['status'] !=0 ||
-        $lnglat['result']['precise'] !=1){
-            $this->error('无法获取数据，或者匹配不精准');
-        }
+       $lnglat = \Map::getLngLat($data['address']);
 
+        if(empty($lnglat) || $lnglat['status'] !=0 || $lnglat['result']['precise'] !=1) {
+            $this->error('无法获取数据，或者匹配的地址不精确');
+        }
+//
+//        print_r($lnglat);
+//        exit;
         // 商户基本信息入库
         $bisData = [
             'name' => $data['name'],
@@ -62,9 +65,71 @@ class Register extends Controller
             'email' =>  $data['email'],
         ];
 
-      $bisId =  model('Bis')->add('$bisdata');
-      echo $bisId;
-      exit;
+      $bisId =  model('Bis')->add($bisData);
+//      echo $bisId;
+//      exit;
+
+        //总店信息校验
+          $validateLocation = validate('BisLocation');
+          if (!$validateLocation->scene('add')->check($data)){
+              $this->error($validateLocation->getError());
+          }
+
+
+          $data['cat'] = '';
+          if (!empty($data['se_category_id'])){
+              $data['cat'] = implode('|',$data['se_category_id']);
+          }
+
+        // 总店相关信息入库
+        $locationData = [
+            'bis_id' => $bisId,
+            'name' => $data['name'],
+            'logo' => $data['logo'],
+            'tel' => $data['tel'],
+            'contact' => $data['contact'],
+            'category_id' => $data['category_id'],
+            'category_path' => $data['category_id'] . ',' . $data['cat'],
+            'city_id' => $data['city_id'],
+            'city_path' => empty($data['se_city_id']) ? $data['city_id'] : $data['city_id'].','.$data['se_city_id'],
+            'api_address' => $data['address'],
+            'open_time' => $data['open_time'],
+            'content' => empty($data['content']) ? '' : $data['content'],
+            'is_main' => 1,// 代表的是总店信息
+            'xpoint' => empty($lnglat['result']['location']['lng']) ? '' : $lnglat['result']['location']['lng'],
+            'ypoint' => empty($lnglat['result']['location']['lat']) ? '' : $lnglat['result']['location']['lat'],
+        ];
+        $locationId = model('BisLocation')->add($locationData);
+//        echo $locationId;
+//        exit;
+
+        //账户信息校验
+        $validateAccount = validate('BisAccount');
+        if (!$validateAccount->scene('add')->check($data)){
+            $this->error($validateAccount->getError());
+        }
+
+        //账户信息入库
+        //自动生成密码的加盐字符
+        $data['code'] = mt_rand(100,10000);
+        $accountData = [
+            'bis_id'=>$bisId,
+            'username'=>$data['username'],
+            'code' => $data['code'],
+            'password'=> md5($data['password'].$data['code']),
+            'is_main'=>1,//代表的是总店管理员
+        ];
+
+
+        $accountId = model('BisAccount')->add($accountData);
+//        print_r($accountId);
+//        exit;
+
+        if (!$accountId){
+            $this->error('申请失败');
+        }
+        
+
     }
 
 }

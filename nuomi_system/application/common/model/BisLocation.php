@@ -11,7 +11,7 @@ namespace app\common\model;
 
 use think\Model;
 
-class Bis extends Model
+class BisLocation extends Model
 {
 
     protected $autoWriteTimestamp = true;

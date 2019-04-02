@@ -46,7 +46,14 @@ class Register extends Controller
         if(empty($lnglat) || $lnglat['status'] !=0 || $lnglat['result']['precise'] !=1) {
             $this->error('无法获取数据，或者匹配的地址不精确');
         }
-//
+
+        //判断提交的用户是否存在
+        $accountResult = model('BisAccount')->get(['username'=>$data['username']]);
+                         //echo model('BisAccount')->getLastSql();
+        if ($accountResult){
+            $this->error('该用户存在,请重新分配');
+        }
+;//
 //        print_r($lnglat);
 //        exit;
         // 商户基本信息入库
@@ -136,8 +143,10 @@ class Register extends Controller
         $content = "您提交的入驻申请需等待平台方审核，您可以通过点击链接<a href='".$url."' target='_blank'>查看链接</a> 查看审核状态";
         \phpmailer\Email::send($data['email'],$title,$content);
 
-        
-        $this->success('申请成功');
+
+
+       // $this->success('申请成功');
+        $this->success('申请成功',url('register/waiting',['id'=>$bisId]));
     }
 
     /**
@@ -155,6 +164,7 @@ class Register extends Controller
         return $this->fetch('',[
             'detail' => $detail,
         ]);
+   //     return 'test';
 }
 
 }

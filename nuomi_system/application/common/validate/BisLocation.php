@@ -24,12 +24,13 @@ class BisLocation extends Validate
         'content' => 'require',
         'city_id' => 'require',
         'category_id' => 'require',
+        'bank_info' => 'require',
     ];
 
 
     //场景设置
     protected $scene = [
-        'add' => ['name','logo','address','tel','contact','open_time','content','city_id','category_id'],
+        'add' => ['name','logo','address','tel','contact','open_time','content','city_id','category_id','bank_info'],
     ];
 
 }

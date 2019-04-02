@@ -13,6 +13,11 @@ use think\Controller;
 
 class Bis extends Controller
 {
+    private $obj;
+    public function _initialize()
+    {
+        $this->obj = model('Bis');
+    }
 
     public function index()
     {
@@ -24,8 +29,16 @@ class Bis extends Controller
         return $this->fetch();
     }
 
+    /**
+     * @return mixed
+     * 入驻申请列表
+     */
     public function apply()
     {
-        return $this->fetch();
+        $bis = $this->obj->getBisByStatus();
+
+        return $this->fetch('',[
+            'bis' => $bis,
+        ]);
     }
 }

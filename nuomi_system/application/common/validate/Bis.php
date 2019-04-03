@@ -24,5 +24,6 @@ class Bis extends Validate {
     // 场景设置
     protected  $scene = [
         'add' => ['name', 'email', 'logo', 'city_id', 'bank_info', 'bank_name', 'bank_user', 'faren', 'faren_tel'],
-    ];
+        'status' => ['status'],//状态
+        ];
 }

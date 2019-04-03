@@ -19,12 +19,6 @@ class Bis extends Controller
         $this->obj = model('Bis');
     }
 
-    public function index()
-    {
-        return $this->fetch();
-    }
-
-
     /**
      * @return mixed
      * 入驻详情页面
@@ -69,5 +63,33 @@ class Bis extends Controller
         return $this->fetch('',[
             'bis' => $bis,
         ]);
+    }
+
+
+    /**
+     * 修改状态
+     */
+// 修改状态
+    public function  status() {
+        $data = input('get.');
+
+        $validate = validate('Bis');
+        if(!$validate->scene('status')->check($data)) {
+            $this->error($validate->getError());
+        }
+
+        $res = $this->obj->save(['status'=>$data['status']], ['id'=>$data['id']]);
+        $location = model('BisLocation')->save(['status'=>$data['status']], ['bis_id'=>$data['id'], 'is_main'=>1]);
+        $account = model('BisAccount')->save(['status'=>$data['status']], ['bis_id'=>$data['id'], 'is_main'=>1]);
+
+                if($res && $location && $account) {
+//            // 发送邮件
+//            // status 1  status 2  status -1
+//            // \phpmailer\Email::send($data['email'],$title, $content);
+            $this->success('状态更新成功');
+        }else {
+            $this->error('状态更新失败');
+        }
+
     }
 }

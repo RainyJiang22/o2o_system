@@ -73,6 +73,7 @@ class Bis extends Controller
     public function  status() {
         $data = input('get.');
 
+
         $validate = validate('Bis');
         if(!$validate->scene('status')->check($data)) {
             $this->error($validate->getError());
@@ -81,12 +82,28 @@ class Bis extends Controller
         $res = $this->obj->save(['status'=>$data['status']], ['id'=>$data['id']]);
         $location = model('BisLocation')->save(['status'=>$data['status']], ['bis_id'=>$data['id'], 'is_main'=>1]);
         $account = model('BisAccount')->save(['status'=>$data['status']], ['bis_id'=>$data['id'], 'is_main'=>1]);
-
+        $status = $data['status'];
+        $bisData = model('Bis')->get($data);
                 if($res && $location && $account) {
 //            // 发送邮件
-//            // status 1  status 2  status -1
-//            // \phpmailer\Email::send($data['email'],$title, $content);
-            $this->success('状态更新成功');
+
+            // status 1  status 2  status -1
+               if($status == 1){
+
+                   $title = "o2o入驻申请";
+                   $content = "你的入驻申请审核已通过，请查看详情";
+                   \phpmailer\Email::send($bisData['email'],$title, $content);
+               }else if($status == 2){
+                   $title = "o2o入驻申请";
+                   $content = "你的入驻申请审核未通过，请重新修改资料再提交";
+                   \phpmailer\Email::send($bisData['email'],$title, $content);
+               }else if($status == -1){
+                   $title = "o2o入驻申请";
+                   $content = "你的入驻申请信息已被删除，请重新提交";
+                   \phpmailer\Email::send($bisData['email'],$title, $content);
+               }
+
+           $this->success('状态更新成功');
         }else {
             $this->error('状态更新失败');
         }

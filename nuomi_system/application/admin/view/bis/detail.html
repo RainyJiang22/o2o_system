@@ -13,14 +13,14 @@
 
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>所属城市：</label>
-			<div class="formControls col-xs-8 col-sm-2"> 
+			<div class="formControls col-xs-8 col-sm-2">
 				<span class="select-box">
 				<select name="city_id" class="select cityId">
 					<option value="0">--请选择--</option>
 					{volist name="citys" id="vo"}
 					    <option value="{$vo.id}" {if condition="$bisData.city_id eq $vo.id"} selected="selected"{/if}>{$vo.name}</option>
 				    {/volist}
-					
+
 				</select>
 				</span>
 			</div>

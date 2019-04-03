@@ -21,6 +21,36 @@ class Bis extends Controller
 
     /**
      * @return mixed
+     * 商户列表
+     */
+    public function index()
+    {
+        $bis = $this->obj->getBisByStatus(1);
+
+
+        return $this->fetch('',[
+            'bis' => $bis,
+        ]);
+    }
+
+    /**
+     * @return mixed
+     * 删除商户列表
+     */
+    public function dellist()
+    {
+        $bis = $this->obj->getBisByStatus(-1);
+
+
+        return $this->fetch('',[
+            'bis' => $bis,
+        ]);
+    }
+
+
+
+    /**
+     * @return mixed
      * 入驻详情页面
      */
     public function detail()

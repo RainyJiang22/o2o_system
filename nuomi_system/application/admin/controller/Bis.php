@@ -24,9 +24,38 @@ class Bis extends Controller
         return $this->fetch();
     }
 
-    public function dellist()
+
+    /**
+     * @return mixed
+     * 入驻详情页面
+     */
+    public function detail()
     {
-        return $this->fetch();
+        $id = input('get.id');
+        if (empty($id)){
+            return $this->error('ID错误');
+        }
+
+
+        //获取一级城市的数据
+        $citys = model('City')->getNormalCitysByParentId();
+        //获取一级栏目的数据
+        $categorys = model('Category')->getNormalCategoryByParentId();
+
+        //获取商户数据
+        $bisData = model('Bis')->get($id);
+        $locationData = model('BisLocation')->get(['bis_id'=>$id,
+          'is_main'=>1]);
+        $accountData = model('BisAccount')->get(['bis_id'=>$id,
+          'is_main'=>1]);
+
+        return $this->fetch('',[
+            'citys' => $citys,
+            'categorys' => $categorys,
+            'bisData' => $bisData,
+            'locationData' => $locationData,
+            'accountData' => $accountData,
+        ]);
     }
 
     /**

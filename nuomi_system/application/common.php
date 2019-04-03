@@ -73,3 +73,44 @@ function pagination($obj) {
     $params = request()->param();
     return '<div class="cl pd-5 bg-1 bk-gray mt-20 tp5-o2o">'.$obj->appends($params)->render().'</div>';
 }
+
+
+/**
+ * @param $path
+ * @return bool|string
+ * @throws \think\Exception\DbException
+ * 城市分类查询
+ */
+function getSeCityName($path) {
+    if(empty($path)) {
+        return '';
+    }
+    if(preg_match('/,/', $path)) {
+        $cityPath = explode(',', $path);
+        $cityId = $cityPath[1];
+    }else {
+        $cityId = $path;
+    }
+
+    $city = model('City')->get($cityId);
+    return $city->name;
+}
+
+/**
+ * 生活分类查询
+ */
+function getCategoryName($path){
+    if (empty($path)){
+        return '';
+    }
+    if (preg_match('/,/',$path)){
+         $categoryPath = explode(',',$path);
+         $categoryId = $categoryPath[1];
+    }else{
+        $categoryId = $path;
+    }
+
+    $category =  model('Category')->get($categoryId);
+    return $category->name;
+}
+

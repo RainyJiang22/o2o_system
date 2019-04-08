@@ -13,5 +13,9 @@ use think\Model;
 class BisAccount extends  BisModel
 {
 
+  public function updateById($data,$id){
 
+      //allowField 过滤数据中非数据库中的数据
+      return $this->allowField(true)->save($data,['id'=>$id]);
+  }
 }

@@ -24,5 +24,5 @@ class BisAccount extends Validate
     //场景设置
     protected $scene = [
         'add' => ['username','password'],
-    ];
+      ];
 }

@@ -11,6 +11,7 @@ use think\Controller;
 class Register extends Controller
 {
 
+
     public function index() {
         //获取一级城市的数据
         $citys = model('City')->getNormalCitysByParentId();
@@ -32,9 +33,9 @@ class Register extends Controller
 
         //获取表单的值
         $data = input('post.');
-        //商户基本信息校验
+        //
        //print_r($data);
-        $validate = validate('Bis');
+        $validate = validate('BisLocation');
         if (!$validate->scene('add')->check($data)){
                $this->error($validate->getError());
         }

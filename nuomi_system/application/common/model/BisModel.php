@@ -18,6 +18,7 @@ use think\Model;
 class BisModel extends Model
 {
 
+    private $account;
     protected $autoWriteTimestamp = true;
     public function add($data){
         $data['status'] = 0;
@@ -26,5 +27,12 @@ class BisModel extends Model
         return $this->id;
     }
 
+
+    public function getLoginUser(){
+        if(!$this->account) {
+            $this->account = session('bisAccount', '', 'bis');
+        }
+        return $this->account;
+    }
 
 }

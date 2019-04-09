@@ -21,6 +21,21 @@ function status($status){
     return $str;
 }
 
+
+/**
+ * @param $is_main
+ * @return string
+ * 是否是总店
+ */
+function is_main($is_main){
+    if ($is_main == 0){
+        $str = "<span>否</span>";
+    }else{
+        $str = "<span>是</span>";
+    }
+    return $str;
+}
+
 /**
  * @param $url
  * @param int $type 0 get  1 post

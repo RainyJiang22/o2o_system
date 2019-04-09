@@ -34,8 +34,9 @@ class Base extends Controller
     }
 
     public function getLoginUser(){
-       if (!$this->account)
-      $this->account =  session('bisAccount','','bis');
+        if(!$this->account) {
+            $this->account = session('bisAccount', '', 'bis');
+        }
       return $this->account;
     }
 

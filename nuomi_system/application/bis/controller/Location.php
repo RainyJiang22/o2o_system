@@ -100,4 +100,51 @@ class Location extends Base
             'bis' => $bis
         ]);
     }
+
+    /**
+     * 列表详情页
+     */
+    public function detail(){
+
+        $id = input('get.id');
+        if (empty($id)){
+            return $this->error('ID错误');
+        }
+
+        //获取一级城市的数据
+        $citys = model('City')->getNormalCitysByParentId();
+        //获取一级栏目的数据
+        $categorys = model('Category')->getNormalCategoryByParentId();
+
+        //获取分店数据
+        $locationData = model('BisLocation')->get(['bis_id'=>$id]);
+
+        return $this->fetch('',[
+
+            'citys' => $citys,
+            'categorys' => $categorys,
+            'locationData' => $locationData,
+        ]);
+    }
+
+
+    public function status(){
+        $data = input('get.');
+
+        $validate = validate('BisLocation');
+        if(!$validate->scene('status')->check($data)) {
+            $this->error($validate->getError());
+        }
+        $res = $this->obj->save(['status'=>$data['status']], ['id'=>$data['id']]);
+        $location = model('BisLocation')->save(['status'=>$data['status']], ['bis_id'=>$data['id']]);
+
+
+        //print_r($res);
+        if ($res || $location){
+            $this->success('状态更新成功');
+        }else{
+            $this->error('状态更新失败');
+        }
+
+    }
 }

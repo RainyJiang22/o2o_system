@@ -30,6 +30,7 @@ class BisLocation extends Validate
     //场景设置
     protected $scene = [
         'add' => ['name','logo','address','tel','contact','open_time','content','city_id','category_id'],
-    ];
+        'status' => ['status'],//状态
+        ];
 
 }

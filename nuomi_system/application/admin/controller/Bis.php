@@ -89,8 +89,10 @@ class Bis extends Controller
     public function apply()
     {
         $bis = $this->obj->getBisByStatus();
+        $bislocation = model('BisLocation')->getNormalLocationByStatus();
 
         return $this->fetch('',[
+            'bislocation' => $bislocation,
             'bis' => $bis,
         ]);
     }

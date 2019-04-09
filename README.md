@@ -1,4 +1,4 @@
-##Section ScreenShots
+## Section ScreenShots
 
 ### 下面是部分界面,打造一款基于thinkphp5.0.2的o2o团购网站
 #### 登录界面

@@ -1,0 +1,133 @@
+[ 2017-03-26T22:04:49+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002966s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.003742s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002731s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.004489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.008904s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1490537089  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.002820s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.000302s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:04:55+08:00 ] ::1 ::1 GET /bis/register/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003364s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.005067s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000492s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:13:02+08:00 ] ::1 ::1 GET /bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000420s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002763s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003378s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000409s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:13:02+08:00 ] ::1 ::1 GET /bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.026109s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.006353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004263s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.002470s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:51:17+08:00 ] ::1 ::1 GET /index.php/bis/register/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002672s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003209s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000386s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:51:18+08:00 ] ::1 ::1 GET /index.php/bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000945s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006154s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004536s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001009s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:51:18+08:00 ] ::1 ::1 GET /index.php/bis/register/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000303s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005057s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003810s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000368s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:51:19+08:00 ] ::1 ::1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000288s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.004397s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 4 ORDER BY `id`  desc [ RunTime:0.002570s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:51:23+08:00 ] ::1 ::1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006783s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 1 ORDER BY `id`  desc [ RunTime:0.000644s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:51:26+08:00 ] ::1 ::1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000294s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003415s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 4 ORDER BY `id`  desc [ RunTime:0.000442s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:52:29+08:00 ] ::1 ::1 GET /index.php/admin/bis/apply.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.004810s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.003968s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000561s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:52:31+08:00 ] ::1 ::1 GET /index.php/admin/bis/detail.html?id=18
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000900s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.004965s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004170s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.004441s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.005393s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 18  AND `is_main` = 1 LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.006661s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 18  AND `is_main` = 1 LIMIT 1 [ RunTime:0.000929s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:52:38+08:00 ] ::1 ::1 GET /index.php/admin/bis/detail.html?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003599s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004651s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.002720s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009212s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.002094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.006246s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 3  AND `is_main` = 1 LIMIT 1 [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.006728s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 3  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.002711s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:52:45+08:00 ] ::1 ::1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001212s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006505s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 1 ORDER BY `id`  desc [ RunTime:0.001013s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:52:48+08:00 ] ::1 ::1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006002s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 4 ORDER BY `id`  desc [ RunTime:0.001653s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T22:52:50+08:00 ] ::1 ::1 POST /index.php/api/city/getcitysbyparentid.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001402s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006401s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 1 ORDER BY `id`  desc [ RunTime:0.001350s ]
+
+---------------------------------------------------------------

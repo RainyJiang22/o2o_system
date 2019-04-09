@@ -1,0 +1,222 @@
+[ 2017-04-20T02:04:18+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.002776s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008040s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.005880s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.002098s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:22+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000324s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004351s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000530s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002164s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.004504s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000571s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007032s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000539s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.005145s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000614s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002288s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000533s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000251s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003597s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000398s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:24+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000316s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004926s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000704s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:24+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000307s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007245s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000426s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:24+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000336s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004835s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.004953s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000548s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:25+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000364s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004285s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000479s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:25+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000488s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:25+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000365s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007775s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.004459s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:25+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000349s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007765s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000524s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:25+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000336s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.005047s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000640s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:25+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000315s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003942s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000537s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:33+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000565s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.005296s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000507s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:45+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.017828s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000627s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:47+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000283s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003537s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.000524s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:56+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005608s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001992s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008179s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.038001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1492625096  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.004547s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.000438s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:04:57+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000455s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003926s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004835s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.005624s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1492625097  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.000289s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:05:01+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000257s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003862s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003972s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.007406s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.009496s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (11)  AND `status` = 1 [ RunTime:0.000428s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:05:01+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000248s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.003697s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003832s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.005634s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.006335s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (11)  AND `status` = 1 [ RunTime:0.000364s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:09:01+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005565s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004379s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.006450s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.005295s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (11)  AND `status` = 1 [ RunTime:0.000745s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:09:02+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006930s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.005544s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.006183s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.007331s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (11)  AND `status` = 1 [ RunTime:0.000504s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:09:40+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000590s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006616s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.026828s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.004962s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.006392s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (11)  AND `status` = 1 [ RunTime:0.000644s ]
+
+---------------------------------------------------------------
+[ 2017-04-20T02:09:40+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006162s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.005360s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.005303s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.005216s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `id` IN (11)  AND `status` = 1 [ RunTime:0.003616s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,387 @@
+[ 2017-06-27T23:11:30+08:00 ] ::1 ::1 GET /
+[ log ] o2o.singwa.com/ [运行时间：0.184434s][吞吐率：5.42req/s] [内存消耗：2,492.86kb] [文件加载：55]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8978985984; pgv_si=s8645249024',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/MAMP/htdocs/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T23:11:30+08:00 ] ::1 ::1 GET /
+[ log ] o2o.singwa.com/ [运行时间：0.093650s][吞吐率：10.68req/s] [内存消耗：2,492.90kb] [文件加载：55]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=ed4552fee3bacdfdc63234039cd38b3e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/MAMP/htdocs/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T23:11:34+08:00 ] ::1 ::1 GET /index/detail/index.html?id=13
+[ log ] o2o.singwa.com/index/detail/index.html?id=13 [运行时间：0.092722s][吞吐率：10.78req/s] [内存消耗：2,524.53kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'detail',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=ed4552fee3bacdfdc63234039cd38b3e',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Detail->index[ /Applications/MAMP/htdocs/imooc_o2o/application/index/controller/Detail.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/index/view/detail/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'deal',
+  7 => 'category',
+  8 => 'locations',
+  9 => 'overplus',
+  10 => 'flag',
+  11 => 'mapstr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T23:11:35+08:00 ] ::1 ::1 GET /index/map/getmapimage.html?data=115.826266426,29.0155615737
+[ log ] o2o.singwa.com/index/map/getmapimage.html?data=115.826266426,29.0155615737 [运行时间：0.102232s][吞吐率：9.78req/s] [内存消耗：1,304.71kb] [文件加载：41]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'map',
+    2 => 'getmapimage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/index/detail/index.html?id=13',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=ed4552fee3bacdfdc63234039cd38b3e',
+)
+[ info ] [ PARAM ] array (
+  'data' => '115.826266426,29.0155615737',
+)
+[ info ] [ RUN ] app\index\controller\Map->getMapImage[ /Applications/MAMP/htdocs/imooc_o2o/application/index/controller/Map.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T23:11:35+08:00 ] ::1 ::1 GET /index/detail/index.html?id=13
+[ log ] o2o.singwa.com/index/detail/index.html?id=13 [运行时间：0.078537s][吞吐率：12.73req/s] [内存消耗：2,524.11kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'detail',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/index/detail/index.html?id=13',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=ed4552fee3bacdfdc63234039cd38b3e',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Detail->index[ /Applications/MAMP/htdocs/imooc_o2o/application/index/controller/Detail.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/index/view/detail/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'deal',
+  7 => 'category',
+  8 => 'locations',
+  9 => 'overplus',
+  10 => 'flag',
+  11 => 'mapstr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T23:12:01+08:00 ] ::1 ::1 GET /index/detail/index.html?id=11
+[ log ] o2o.singwa.com/index/detail/index.html?id=11 [运行时间：0.092371s][吞吐率：10.83req/s] [内存消耗：2,524.55kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'detail',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=ed4552fee3bacdfdc63234039cd38b3e',
+)
+[ info ] [ PARAM ] array (
+  'id' => '11',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Detail->index[ /Applications/MAMP/htdocs/imooc_o2o/application/index/controller/Detail.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/index/view/detail/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'deal',
+  7 => 'category',
+  8 => 'locations',
+  9 => 'overplus',
+  10 => 'flag',
+  11 => 'mapstr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T23:12:01+08:00 ] ::1 ::1 GET /index/map/getmapimage.html?data=115.826266426,29.0155615737
+[ log ] o2o.singwa.com/index/map/getmapimage.html?data=115.826266426,29.0155615737 [运行时间：0.072396s][吞吐率：13.81req/s] [内存消耗：1,304.71kb] [文件加载：41]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'map',
+    2 => 'getmapimage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/index/detail/index.html?id=11',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=ed4552fee3bacdfdc63234039cd38b3e',
+)
+[ info ] [ PARAM ] array (
+  'data' => '115.826266426,29.0155615737',
+)
+[ info ] [ RUN ] app\index\controller\Map->getMapImage[ /Applications/MAMP/htdocs/imooc_o2o/application/index/controller/Map.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T23:12:01+08:00 ] ::1 ::1 GET /index/detail/index.html?id=11
+[ log ] o2o.singwa.com/index/detail/index.html?id=11 [运行时间：0.091280s][吞吐率：10.96req/s] [内存消耗：2,524.13kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'detail',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.singwa.com/index/detail/index.html?id=11',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=ed4552fee3bacdfdc63234039cd38b3e',
+)
+[ info ] [ PARAM ] array (
+  'id' => '11',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Detail->index[ /Applications/MAMP/htdocs/imooc_o2o/application/index/controller/Detail.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/index/view/detail/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'deal',
+  7 => 'category',
+  8 => 'locations',
+  9 => 'overplus',
+  10 => 'flag',
+  11 => 'mapstr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T23:12:17+08:00 ] ::1 ::1 GET /index/map/getmapimage.html?data=115.826266426,29.0155615737
+[ log ] o2o.singwa.com/index/map/getmapimage.html?data=115.826266426,29.0155615737 [运行时间：0.070434s][吞吐率：14.20req/s] [内存消耗：1,304.74kb] [文件加载：41]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'map',
+    2 => 'getmapimage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=ed4552fee3bacdfdc63234039cd38b3e',
+)
+[ info ] [ PARAM ] array (
+  'data' => '115.826266426,29.0155615737',
+)
+[ info ] [ RUN ] app\index\controller\Map->getMapImage[ /Applications/MAMP/htdocs/imooc_o2o/application/index/controller/Map.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

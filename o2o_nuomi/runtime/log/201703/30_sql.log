@@ -1,0 +1,26 @@
+[ 2017-03-30T23:58:59+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004168s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.008183s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.004739s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.003575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004302s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001558s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002026s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.009903s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1490889539  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.002081s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.000333s ]
+
+---------------------------------------------------------------
+[ 2017-03-30T23:59:00+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001264s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.005965s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004945s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,6,5,4,2)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.007118s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1490889540  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.000710s ]
+
+---------------------------------------------------------------

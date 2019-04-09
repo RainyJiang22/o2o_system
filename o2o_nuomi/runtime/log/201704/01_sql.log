@@ -1,0 +1,7 @@
+[ 2017-04-01T00:36:49+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:dbname=imooc_o2o;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006124s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.002353s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000357s ]
+
+---------------------------------------------------------------

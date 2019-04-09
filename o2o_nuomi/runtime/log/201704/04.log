@@ -1,0 +1,153 @@
+[ 2017-04-04T13:39:57+08:00 ] ::1 ::1 GET /index.php?s=admin
+[ log ] o2o.singwa.com/index.php?s=admin [运行时间：0.116541s][吞吐率：8.58req/s] [内存消耗：1,973.80kb] [文件加载：44]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=1|5; pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=b8b4768bbcc4f0513f9ac7864a3ee78d; Huiskin=default; thinkphp_show_page_trace=0|5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/MAMP/htdocs/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-04T13:39:57+08:00 ] ::1 ::1 GET /index.php/admin/index/welcome.html
+[ log ] o2o.singwa.com/index.php/admin/index/welcome.html [运行时间：0.037839s][吞吐率：26.43req/s] [内存消耗：1,888.52kb] [文件加载：42]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36',
+  'referer' => 'http://o2o.singwa.com/index.php?s=admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=1|0; thinkphp_show_page_trace=1|5; pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=b8b4768bbcc4f0513f9ac7864a3ee78d; Huiskin=default; thinkphp_show_page_trace=0|5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /Applications/MAMP/htdocs/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-04T13:42:39+08:00 ] ::1 ::1 GET /index.php/admin/category/index.html
+[ log ] o2o.singwa.com/index.php/admin/category/index.html [运行时间：0.101909s][吞吐率：9.81req/s] [内存消耗：3,494.94kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36',
+  'referer' => 'http://o2o.singwa.com/index.php?s=admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|5; thinkphp_show_page_trace=1|5; pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=b8b4768bbcc4f0513f9ac7864a3ee78d; Huiskin=default; thinkphp_show_page_trace=0|5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ /Applications/MAMP/htdocs/imooc_o2o/application/admin/controller/Category.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/admin/view/category/index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-04T13:42:46+08:00 ] ::1 ::1 GET /index.php/admin/bis/index.html
+[ log ] o2o.singwa.com/index.php/admin/bis/index.html [运行时间：0.106614s][吞吐率：9.38req/s] [内存消耗：3,733.41kb] [文件加载：62]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36',
+  'referer' => 'http://o2o.singwa.com/index.php?s=admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=1|5; pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=b8b4768bbcc4f0513f9ac7864a3ee78d; Huiskin=default; thinkphp_show_page_trace=0|5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ /Applications/MAMP/htdocs/imooc_o2o/application/admin/controller/Bis.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/admin/view/bis/index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-04T13:42:46+08:00 ] ::1 ::1 GET /index.php/admin/bis/apply.html
+[ log ] o2o.singwa.com/index.php/admin/bis/apply.html [运行时间：0.076480s][吞吐率：13.08req/s] [内存消耗：3,461.91kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.singwa.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36',
+  'referer' => 'http://o2o.singwa.com/index.php?s=admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=1|5; pgv_pvi=8978985984; pgv_si=s8645249024; PHPSESSID=b8b4768bbcc4f0513f9ac7864a3ee78d; Huiskin=default; thinkphp_show_page_trace=0|5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ /Applications/MAMP/htdocs/imooc_o2o/application/admin/controller/Bis.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/imooc_o2o/public/../application/admin/view/bis/apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

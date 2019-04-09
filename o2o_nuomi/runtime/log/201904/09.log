@@ -1,0 +1,4252 @@
+[ 2019-04-09T18:34:54+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tw.nuomi.cn/ [运行时间：1.326529s][吞吐率：0.75req/s] [内存消耗：2,277.10kb] [文件加载：57]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:35:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tw.nuomi.cn/ [运行时间：1.128136s][吞吐率：0.89req/s] [内存消耗：2,143.93kb] [文件加载：55]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:35:15+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tw.nuomi.cn/ [运行时间：1.162352s][吞吐率：0.86req/s] [内存消耗：2,143.93kb] [文件加载：55]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:35:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/user/login
+[ log ] tw.nuomi.cn/index.php/user/login [运行时间：0.024477s][吞吐率：40.85req/s] [内存消耗：942.09kb] [文件加载：36]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tw.nuomi.cn/ [运行时间：1.149983s][吞吐率：0.87req/s] [内存消耗：2,143.93kb] [文件加载：55]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:35:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tw.nuomi.cn/ [运行时间：1.157991s][吞吐率：0.86req/s] [内存消耗：2,143.93kb] [文件加载：55]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:35:57+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tw.nuomi.cn/ [运行时间：1.159255s][吞吐率：0.86req/s] [内存消耗：2,143.93kb] [文件加载：55]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:35:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tw.nuomi.cn/ [运行时间：1.154770s][吞吐率：0.87req/s] [内存消耗：2,143.93kb] [文件加载：55]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:36:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/login
+[ log ] tw.nuomi.cn/index.php/index/login [运行时间：0.029887s][吞吐率：33.46req/s] [内存消耗：942.95kb] [文件加载：36]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login
+[ log ] tw.nuomi.cn/index.php/index/user/login [运行时间：0.045317s][吞吐率：22.07req/s] [内存消耗：1,312.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:36:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/register.html
+[ log ] tw.nuomi.cn/index.php/index/user/register.html [运行时间：0.066592s][吞吐率：15.02req/s] [内存消耗：1,311.77kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->register[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:36:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha.html
+[ log ] tw.nuomi.cn/index.php/captcha.html [运行时间：0.051307s][吞吐率：19.49req/s] [内存消耗：965.92kb] [文件加载：35]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/register.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha.html
+[ log ] tw.nuomi.cn/index.php/captcha.html [运行时间：0.024362s][吞吐率：41.05req/s] [内存消耗：965.97kb] [文件加载：35]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/register.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha.html
+[ log ] tw.nuomi.cn/index.php/captcha.html [运行时间：0.021333s][吞吐率：46.88req/s] [内存消耗：965.91kb] [文件加载：35]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/register.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/register.html
+[ log ] tw.nuomi.cn/index.php/index/user/register.html [运行时间：1.110732s][吞吐率：0.90req/s] [内存消耗：2,196.56kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '107',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'jackytallow',
+  'email' => '3434481891@qq.com',
+  'password' => 'jiang123456',
+  'repassword' => 'jiang123456',
+  'verifycode' => 'HFWGD',
+)
+[ info ] [ RUN ] app\index\controller\User->register[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login.html
+[ log ] tw.nuomi.cn/index.php/index/user/login.html [运行时间：0.026115s][吞吐率：38.29req/s] [内存消耗：1,195.95kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/logincheck.html
+[ log ] tw.nuomi.cn/index.php/index/user/logincheck.html [运行时间：1.088269s][吞吐率：0.92req/s] [内存消耗：2,103.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'jackytallow',
+  'password' => 'jiang123456',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html
+[ log ] tw.nuomi.cn/index.php/index/index/index.html [运行时间：1.121804s][吞吐率：0.89req/s] [内存消耗：2,175.04kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/logincheck.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html?city=yichun
+[ log ] tw.nuomi.cn/index.php/index/index/index.html?city=yichun [运行时间：1.113806s][吞吐率：0.90req/s] [内存消耗：2,175.49kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'yichun',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/lists/index.html?id=14
+[ log ] tw.nuomi.cn/index.php/index/lists/index.html?id=14 [运行时间：1.218313s][吞吐率：0.82req/s] [内存消耗：2,429.40kb] [文件加载：61]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'lists',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=yichun',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Lists->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Lists.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\lists\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'categorys',
+  7 => 'sedcategorys',
+  8 => 'id',
+  9 => 'categoryParentId',
+  10 => 'orderflag',
+  11 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/lists/index.html?id=6
+[ log ] tw.nuomi.cn/index.php/index/lists/index.html?id=6 [运行时间：1.114471s][吞吐率：0.90req/s] [内存消耗：2,288.73kb] [文件加载：59]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'lists',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/lists/index.html?id=14',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Lists->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Lists.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\lists\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'categorys',
+  7 => 'sedcategorys',
+  8 => 'id',
+  9 => 'categoryParentId',
+  10 => 'orderflag',
+  11 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/lists/index.html?id=19
+[ log ] tw.nuomi.cn/index.php/index/lists/index.html?id=19 [运行时间：1.128117s][吞吐率：0.89req/s] [内存消耗：2,284.27kb] [文件加载：59]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'lists',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/lists/index.html?id=6',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Lists->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Lists.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\lists\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'categorys',
+  7 => 'sedcategorys',
+  8 => 'id',
+  9 => 'categoryParentId',
+  10 => 'orderflag',
+  11 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/lists/index.html
+[ log ] tw.nuomi.cn/index.php/index/lists/index.html [运行时间：1.126938s][吞吐率：0.89req/s] [内存消耗：2,283.44kb] [文件加载：59]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'lists',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/lists/index.html?id=19',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Lists->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Lists.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\lists\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'categorys',
+  7 => 'sedcategorys',
+  8 => 'id',
+  9 => 'categoryParentId',
+  10 => 'orderflag',
+  11 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:37:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/lists/index.html?id=2
+[ log ] tw.nuomi.cn/index.php/index/lists/index.html?id=2 [运行时间：1.130332s][吞吐率：0.88req/s] [内存消耗：2,286.63kb] [文件加载：59]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'lists',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/lists/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Lists->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Lists.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\lists\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'categorys',
+  7 => 'sedcategorys',
+  8 => 'id',
+  9 => 'categoryParentId',
+  10 => 'orderflag',
+  11 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] tw.nuomi.cn/index.php/bis/login/index.html [运行时间：0.045828s][吞吐率：21.82req/s] [内存消耗：1,561.77kb] [文件加载：49]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/lists/index.html?id=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ log ] tw.nuomi.cn/index.php/bis/login/index.html [运行时间：1.091272s][吞吐率：0.92req/s] [内存消耗：1,984.35kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '31',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'singwa',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] tw.nuomi.cn/index.php/bis/login/index.html [运行时间：0.032170s][吞吐率：31.08req/s] [内存消耗：1,443.20kb] [文件加载：47]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/lists/index.html?id=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html?city=beijing
+[ log ] tw.nuomi.cn/index.php/index/index/index.html?city=beijing [运行时间：1.113428s][吞吐率：0.90req/s] [内存消耗：2,175.35kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=yichun',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'beijing',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html?city=ganzhou
+[ log ] tw.nuomi.cn/index.php/index/index/index.html?city=ganzhou [运行时间：1.131497s][吞吐率：0.88req/s] [内存消耗：2,175.31kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=beijing',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'ganzhou',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html?city=nanchang
+[ log ] tw.nuomi.cn/index.php/index/index/index.html?city=nanchang [运行时间：1.131454s][吞吐率：0.88req/s] [内存消耗：2,175.33kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=ganzhou',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'nanchang',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html?city=jdz
+[ log ] tw.nuomi.cn/index.php/index/index/index.html?city=jdz [运行时间：1.102935s][吞吐率：0.91req/s] [内存消耗：2,175.34kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=nanchang',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'jdz',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/lists/index.html?id=14
+[ log ] tw.nuomi.cn/index.php/index/lists/index.html?id=14 [运行时间：1.146815s][吞吐率：0.87req/s] [内存消耗：2,295.10kb] [文件加载：59]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'lists',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Lists->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Lists.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\lists\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'categorys',
+  7 => 'sedcategorys',
+  8 => 'id',
+  9 => 'categoryParentId',
+  10 => 'orderflag',
+  11 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html?city=jdz
+[ log ] tw.nuomi.cn/index.php/index/index/index.html?city=jdz [运行时间：1.135120s][吞吐率：0.88req/s] [内存消耗：2,175.27kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'jdz',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:38:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/lists/index.html?id=1
+[ log ] tw.nuomi.cn/index.php/index/lists/index.html?id=1 [运行时间：1.126177s][吞吐率：0.89req/s] [内存消耗：2,294.45kb] [文件加载：59]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'lists',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Lists->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\Lists.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\lists\index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'categorys',
+  7 => 'sedcategorys',
+  8 => 'id',
+  9 => 'categoryParentId',
+  10 => 'orderflag',
+  11 => 'deals',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:39:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/logout.html
+[ log ] tw.nuomi.cn/index.php/index/user/logout.html [运行时间：0.035392s][吞吐率：28.25req/s] [内存消耗：1,459.96kb] [文件加载：46]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->logout[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:39:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login.html
+[ log ] tw.nuomi.cn/index.php/index/user/login.html [运行时间：0.022429s][吞吐率：44.58req/s] [内存消耗：1,195.66kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:39:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/logincheck.html
+[ log ] tw.nuomi.cn/index.php/index/user/logincheck.html [运行时间：1.080546s][吞吐率：0.93req/s] [内存消耗：1,989.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'singwa',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:39:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login.html
+[ log ] tw.nuomi.cn/index.php/index/user/login.html [运行时间：0.032669s][吞吐率：30.61req/s] [内存消耗：1,195.66kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:39:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/logincheck.html
+[ log ] tw.nuomi.cn/index.php/index/user/logincheck.html [运行时间：1.074015s][吞吐率：0.93req/s] [内存消耗：1,989.28kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '31',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'singwa',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:39:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login.html
+[ log ] tw.nuomi.cn/index.php/index/user/login.html [运行时间：0.025626s][吞吐率：39.02req/s] [内存消耗：1,195.66kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:40:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/logincheck.html
+[ log ] tw.nuomi.cn/index.php/index/user/logincheck.html [运行时间：1.089148s][吞吐率：0.92req/s] [内存消耗：1,989.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'test',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:40:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login.html
+[ log ] tw.nuomi.cn/index.php/index/user/login.html [运行时间：0.024914s][吞吐率：40.14req/s] [内存消耗：1,195.66kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:40:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] tw.nuomi.cn/index.php/bis/register/index.html [运行时间：1.145341s][吞吐率：0.87req/s] [内存消耗：2,183.00kb] [文件加载：56]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:41:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] tw.nuomi.cn/index.php/bis/register/index.html [运行时间：1.081113s][吞吐率：0.92req/s] [内存消耗：2,052.39kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:41:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.139565s][吞吐率：0.88req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:41:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.122021s][吞吐率：0.89req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:41:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/city/getcitysbyparentid.html [运行时间：1.075926s][吞吐率：0.93req/s] [内存消耗：1,958.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:43:09+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] tw.nuomi.cn/index.php/api/image/upload.html [运行时间：0.055838s][吞吐率：17.91req/s] [内存消耗：1,214.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------Ef1Ij5Ij5Ef1KM7Ij5GI3GI3KM7gL6',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'origin' => 'http://tw.nuomi.cn',
+  'content-length' => '20978',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'u=2527090644,3049485901&amp;fm=26&amp;gp=0.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:43:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] tw.nuomi.cn/index.php/api/image/upload.html [运行时间：0.031428s][吞吐率：31.82req/s] [内存消耗：1,214.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------ei4Ij5gL6gL6KM7cH2Ij5KM7ei4GI3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'origin' => 'http://tw.nuomi.cn',
+  'content-length' => '20978',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'u=2527090644,3049485901&amp;fm=26&amp;gp=0.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:43:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/category/getcategorybyparentid.html [运行时间：1.095217s][吞吐率：0.91req/s] [内存消耗：1,961.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:45:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ log ] tw.nuomi.cn/index.php/bis/register/add.html [运行时间：0.092769s][吞吐率：10.78req/s] [内存消耗：1,191.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '4318',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'name' => '黄焖鸡米饭',
+  'city_id' => '4',
+  'se_city_id' => '10',
+  'logo' => '/upload\\20190409\\d8a966b49fe6ca04969452c70feed8d9.jpg',
+  'licence_logo' => '/upload\\20190409\\ae250f8c6601953d62cb9817f37088be.jpg',
+  'bank_info' => '789445664512131',
+  'bank_name' => '农业银行',
+  'bank_user' => '江石雨',
+  'faren' => '江石雨',
+  'faren_tel' => '15817351625',
+  'email' => '3434481891@qq.com',
+  'tel' => '15817351625',
+  'contact' => '赵天成',
+  'category_id' => '1',
+  'se_category_id' => 
+  array (
+    0 => '13',
+    1 => '10',
+  ),
+  'address' => '赣州市龙南县龙南镇八一九街88号',
+  'open_time' => '9:00-12:00',
+  'username' => 'jackytallow',
+  'password' => '123456',
+  'description' => '&lt;p&gt;黄焖鸡米饭又叫香鸡煲或浓汁鸡煲饭，是&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B2%81%E8%8F%9C/458122&quot; data-lemmaid=&quot;458122&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;鲁菜&lt;/a&gt;名吃，源自&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C/155740&quot; data-lemmaid=&quot;155740&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;山东&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97/135066&quot; data-lemmaid=&quot;135066&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;济南&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%A4%A9%E6%A1%A5%E5%8C%BA/6458924&quot; data-lemmaid=&quot;6458924&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;天桥区&lt;/a&gt;的传统名吃。色香味美，口感鲜嫩，透味不粘腻，香味浓郁。&lt;/p&gt;&lt;ul class=&quot;basicInfo-block basicInfo-left list-paddingleft-2&quot; style=&quot;margin: 0px; padding: 0px; width: 395px; float: left;&quot;&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',
+  'content' => '&lt;p style=&quot;white-space: normal;&quot;&gt;黄焖鸡米饭又叫香鸡煲或浓汁鸡煲饭，是&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B2%81%E8%8F%9C/458122&quot; data-lemmaid=&quot;458122&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;鲁菜&lt;/a&gt;名吃，源自&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C/155740&quot; data-lemmaid=&quot;155740&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;山东&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97/135066&quot; data-lemmaid=&quot;135066&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;济南&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%A4%A9%E6%A1%A5%E5%8C%BA/6458924&quot; data-lemmaid=&quot;6458924&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;天桥区&lt;/a&gt;的传统名吃。色香味美，口感鲜嫩，透味不粘腻，香味浓郁。&lt;/p&gt;&lt;ul class=&quot;basicInfo-block basicInfo-left list-paddingleft-2&quot; style=&quot;width: 395px; padding: 0px; white-space: normal; float: left;&quot;&gt;&lt;/ul&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:45:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.122903s][吞吐率：0.89req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:45:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.118113s][吞吐率：0.89req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:45:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/category/getcategorybyparentid.html [运行时间：1.094468s][吞吐率：0.91req/s] [内存消耗：1,959.37kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:45:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/category/getcategorybyparentid.html [运行时间：1.091734s][吞吐率：0.92req/s] [内存消耗：1,961.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:46:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/city/getcitysbyparentid.html [运行时间：1.072541s][吞吐率：0.93req/s] [内存消耗：1,955.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:46:04+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/city/getcitysbyparentid.html [运行时间：1.119151s][吞吐率：0.89req/s] [内存消耗：1,958.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:46:09+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] tw.nuomi.cn/index.php/api/image/upload.html [运行时间：0.041056s][吞吐率：24.36req/s] [内存消耗：1,214.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------KM7ei4Ef1KM7ei4Ij5gL6Ij5ae0cH2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'origin' => 'http://tw.nuomi.cn',
+  'content-length' => '20978',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'u=2527090644,3049485901&amp;fm=26&amp;gp=0.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:46:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] tw.nuomi.cn/index.php/api/image/upload.html [运行时间：0.032971s][吞吐率：30.33req/s] [内存消耗：1,214.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------KM7GI3Ij5Ij5KM7ae0KM7gL6Ij5Ef1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'origin' => 'http://tw.nuomi.cn',
+  'content-length' => '20978',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'u=2527090644,3049485901&amp;fm=26&amp;gp=0.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:46:18+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ log ] tw.nuomi.cn/index.php/bis/register/add.html [运行时间：0.052156s][吞吐率：19.17req/s] [内存消耗：1,191.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '4423',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'name' => '黄焖鸡米饭',
+  'city_id' => '4',
+  'se_city_id' => '10',
+  'logo' => '/upload\\20190409\\441c748600469bd06b768d7801659d65.jpg',
+  'licence_logo' => '/upload\\20190409\\a9c1b17bf3c9cbf31cadc3a765499da5.jpg',
+  'bank_info' => '789445664512131',
+  'bank_name' => '农业银行',
+  'bank_user' => '江石雨',
+  'faren' => '江石雨',
+  'faren_tel' => '15817351625',
+  'email' => '3434481891@qq.com',
+  'tel' => '15817351625',
+  'contact' => '赵天成',
+  'category_id' => '1',
+  'se_category_id' => 
+  array (
+    0 => '13',
+    1 => '10',
+  ),
+  'address' => '广东省佛山市顺德区容英路24号',
+  'open_time' => '9:00-12:00',
+  'username' => 'jackytallow',
+  'password' => '123456',
+  'description' => '&lt;p style=&quot;white-space: normal;&quot;&gt;黄焖鸡米饭又叫香鸡煲或浓汁鸡煲饭，是&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B2%81%E8%8F%9C/458122&quot; data-lemmaid=&quot;458122&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;鲁菜&lt;/a&gt;名吃，源自&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C/155740&quot; data-lemmaid=&quot;155740&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;山东&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97/135066&quot; data-lemmaid=&quot;135066&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;济南&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%A4%A9%E6%A1%A5%E5%8C%BA/6458924&quot; data-lemmaid=&quot;6458924&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;天桥区&lt;/a&gt;的传统名吃。色香味美，口感鲜嫩，透味不粘腻，香味浓郁。&lt;/p&gt;&lt;ul class=&quot;basicInfo-block basicInfo-left list-paddingleft-2&quot; style=&quot;width: 395px; padding: 0px; white-space: normal; float: left;&quot;&gt;&lt;/ul&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',
+  'content' => '&lt;p style=&quot;white-space: normal;&quot;&gt;黄焖鸡米饭又叫香鸡煲或浓汁鸡煲饭，是&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B2%81%E8%8F%9C/458122&quot; data-lemmaid=&quot;458122&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;鲁菜&lt;/a&gt;名吃，源自&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C/155740&quot; data-lemmaid=&quot;155740&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;山东&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97/135066&quot; data-lemmaid=&quot;135066&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;济南&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%A4%A9%E6%A1%A5%E5%8C%BA/6458924&quot; data-lemmaid=&quot;6458924&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none;&quot;&gt;天桥区&lt;/a&gt;的传统名吃。色香味美，口感鲜嫩，透味不粘腻，香味浓郁。&lt;/p&gt;&lt;ul class=&quot;basicInfo-block basicInfo-left list-paddingleft-2&quot; style=&quot;width: 395px; padding: 0px; white-space: normal; float: left;&quot;&gt;&lt;/ul&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:46:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.139968s][吞吐率：0.88req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:46:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.105621s][吞吐率：0.90req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:49:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/index.html
+[ log ] tw.nuomi.cn/index.php/bis/register/index.html [运行时间：1.110873s][吞吐率：0.90req/s] [内存消耗：2,052.48kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:49:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.114799s][吞吐率：0.90req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:49:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.112903s][吞吐率：0.90req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:49:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ log ] tw.nuomi.cn/index.php/bis/register/add.html [运行时间：0.054985s][吞吐率：18.19req/s] [内存消耗：1,179.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '219',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'name' => '黄焖鸡米饭',
+  'city_id' => '0',
+  'se_city_id' => '0',
+  'logo' => '',
+  'licence_logo' => '',
+  'bank_info' => '',
+  'bank_name' => '',
+  'bank_user' => '',
+  'faren' => '',
+  'faren_tel' => '',
+  'email' => '',
+  'tel' => '',
+  'contact' => '',
+  'category_id' => '0',
+  'address' => '',
+  'open_time' => '',
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:49:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.114452s][吞吐率：0.90req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:49:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.112429s][吞吐率：0.90req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:49:26+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/city/getcitysbyparentid.html [运行时间：1.079750s][吞吐率：0.93req/s] [内存消耗：1,958.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:49:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] tw.nuomi.cn/index.php/api/image/upload.html [运行时间：0.034392s][吞吐率：29.08req/s] [内存消耗：1,214.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------GI3ae0ei4KM7ae0Ef1GI3ae0GI3Ef1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'origin' => 'http://tw.nuomi.cn',
+  'content-length' => '20978',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'u=2527090644,3049485901&amp;fm=26&amp;gp=0.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:49:34+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] tw.nuomi.cn/index.php/api/image/upload.html [运行时间：0.033035s][吞吐率：30.27req/s] [内存消耗：1,214.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------Ij5cH2ei4gL6GI3GI3ei4cH2gL6ae0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'origin' => 'http://tw.nuomi.cn',
+  'content-length' => '20978',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'u=2527090644,3049485901&amp;fm=26&amp;gp=0.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:50:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/category/getcategorybyparentid.html [运行时间：1.089977s][吞吐率：0.92req/s] [内存消耗：1,961.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:04+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ log ] tw.nuomi.cn/index.php/bis/register/add.html [运行时间：0.065600s][吞吐率：15.24req/s] [内存消耗：1,195.44kb] [文件加载：46]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '6704',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'name' => '江石雨任何的难题都阻止不了我的脚步',
+  'city_id' => '4',
+  'se_city_id' => '11',
+  'logo' => '/upload\\20190409\\7b9bf29d3fd48f6fbcf362ab80b3e80e.jpg',
+  'licence_logo' => '/upload\\20190409\\c47bb330fdb1589e4dd474a7283204c5.jpg',
+  'bank_info' => '789445664512131',
+  'bank_name' => '农业银行',
+  'bank_user' => '江石雨',
+  'faren' => '江石雨',
+  'faren_tel' => '15817351625',
+  'email' => '3434481891@qq.com',
+  'tel' => '15817351625',
+  'contact' => '赵天成',
+  'category_id' => '1',
+  'se_category_id' => 
+  array (
+    0 => '13',
+    1 => '10',
+  ),
+  'address' => '赣州市龙南县龙南镇八一九街88号',
+  'open_time' => '24',
+  'username' => 'jackytallow',
+  'password' => '123456',
+  'description' => '&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;黄焖鸡米饭又叫香鸡煲或浓汁鸡煲饭，是&lt;/span&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B2%81%E8%8F%9C/458122&quot; data-lemmaid=&quot;458122&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;鲁菜&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;名吃，源自&lt;/span&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C/155740&quot; data-lemmaid=&quot;155740&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;山东&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97/135066&quot; data-lemmaid=&quot;135066&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;济南&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%A4%A9%E6%A1%A5%E5%8C%BA/6458924&quot; data-lemmaid=&quot;6458924&quot; style=&quot;color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;天桥区&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;的传统名吃。色香味美，口感鲜嫩，透味不粘腻，香味浓郁。&lt;/span&gt;&lt;/p&gt;',
+  'content' => '&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;黄焖鸡米饭又叫香鸡煲或浓汁鸡煲饭，是&lt;/span&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B2%81%E8%8F%9C/458122&quot; data-lemmaid=&quot;458122&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;鲁菜&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;名吃，源自&lt;/span&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C/155740&quot; data-lemmaid=&quot;155740&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;山东&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97/135066&quot; data-lemmaid=&quot;135066&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;济南&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%A4%A9%E6%A1%A5%E5%8C%BA/6458924&quot; data-lemmaid=&quot;6458924&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;天桥区&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;的传统名吃。色香味美，口感鲜嫩，透味不粘腻，香味浓郁。&lt;/span&gt;&lt;/p&gt;',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.135615s][吞吐率：0.88req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.108582s][吞吐率：0.90req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/category/getcategorybyparentid.html [运行时间：1.081483s][吞吐率：0.92req/s] [内存消耗：1,959.37kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:34+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/category/getcategorybyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/category/getcategorybyparentid.html [运行时间：1.074795s][吞吐率：0.93req/s] [内存消耗：1,961.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/city/getcitysbyparentid.html [运行时间：1.084378s][吞吐率：0.92req/s] [内存消耗：1,955.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/city/getcitysbyparentid.html
+[ log ] tw.nuomi.cn/index.php/api/city/getcitysbyparentid.html [运行时间：1.084997s][吞吐率：0.92req/s] [内存消耗：1,958.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tw.nuomi.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] tw.nuomi.cn/index.php/api/image/upload.html [运行时间：0.045751s][吞吐率：21.86req/s] [内存消耗：1,214.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------cH2KM7KM7Ef1Ef1ei4cH2KM7GI3Ef1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'origin' => 'http://tw.nuomi.cn',
+  'content-length' => '20978',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'u=2527090644,3049485901&amp;fm=26&amp;gp=0.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/image/upload.html
+[ log ] tw.nuomi.cn/index.php/api/image/upload.html [运行时间：0.036070s][吞吐率：27.72req/s] [内存消耗：1,214.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------Ef1Ij5Ij5gL6Ef1Ij5cH2Ij5GI3GI3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'origin' => 'http://tw.nuomi.cn',
+  'content-length' => '20978',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'u=2527090644,3049485901&amp;fm=26&amp;gp=0.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:51:59+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/register/add.html
+[ log ] tw.nuomi.cn/index.php/bis/register/add.html [运行时间：1.161409s][吞吐率：0.86req/s] [内存消耗：2,150.01kb] [文件加载：59]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '6695',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'name' => '江石雨任何的难题都阻止不了我的脚步',
+  'city_id' => '4',
+  'se_city_id' => '10',
+  'logo' => '/upload\\20190409\\2324af61cef5862da1d5d01521cf5560.jpg',
+  'licence_logo' => '/upload\\20190409\\c2c291908a45839b592ab47443c1f3cb.jpg',
+  'bank_info' => '789445664512131',
+  'bank_name' => '农业银行',
+  'bank_user' => '江石雨',
+  'faren' => '江石雨',
+  'faren_tel' => '15817351625',
+  'email' => '3434481891@qq.com',
+  'tel' => '15817351625',
+  'contact' => '赵天成',
+  'category_id' => '1',
+  'se_category_id' => 
+  array (
+    0 => '13',
+    1 => '10',
+  ),
+  'address' => '广东省佛山市顺德区容英路24号',
+  'open_time' => '24',
+  'username' => 'jackytallow',
+  'password' => '123456',
+  'description' => '&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;黄焖鸡米饭又叫香鸡煲或浓汁鸡煲饭，是&lt;/span&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B2%81%E8%8F%9C/458122&quot; data-lemmaid=&quot;458122&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;鲁菜&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;名吃，源自&lt;/span&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C/155740&quot; data-lemmaid=&quot;155740&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;山东&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97/135066&quot; data-lemmaid=&quot;135066&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;济南&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%A4%A9%E6%A1%A5%E5%8C%BA/6458924&quot; data-lemmaid=&quot;6458924&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;天桥区&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;的传统名吃。色香味美，口感鲜嫩，透味不粘腻，香味浓郁。&lt;/span&gt;&lt;/p&gt;',
+  'content' => '&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;黄焖鸡米饭又叫香鸡煲或浓汁鸡煲饭，是&lt;/span&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E9%B2%81%E8%8F%9C/458122&quot; data-lemmaid=&quot;458122&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;鲁菜&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;名吃，源自&lt;/span&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C/155740&quot; data-lemmaid=&quot;155740&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;山东&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97/135066&quot; data-lemmaid=&quot;135066&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;济南&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/%E5%A4%A9%E6%A1%A5%E5%8C%BA/6458924&quot; data-lemmaid=&quot;6458924&quot; style=&quot;white-space: normal; color: rgb(19, 110, 194); text-decoration-line: none; font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;天桥区&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;的传统名吃。色香味美，口感鲜嫩，透味不粘腻，香味浓郁。&lt;/span&gt;&lt;/p&gt;',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/waiting.html?id=19
+[ log ] tw.nuomi.cn/index.php/bis/register/waiting.html?id=19 [运行时间：1.095893s][吞吐率：0.91req/s] [内存消耗：2,116.98kb] [文件加载：55]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'waiting',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+)
+[ info ] [ RUN ] app\bis\controller\Register->waiting[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\waiting.html [ array (
+  0 => 'detail',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.105506s][吞吐率：0.90req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] tw.nuomi.cn/index.php/bis/login/index.html [运行时间：0.029316s][吞吐率：34.11req/s] [内存消耗：1,191.56kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/lists/index.html?id=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/register/
+[ log ] tw.nuomi.cn/index.php/bis/register/ [运行时间：1.122983s][吞吐率：0.89req/s] [内存消耗：2,052.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/register/index.html',
+  'x-requested-with' => 'ShockwaveFlash/32.0.0.156',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ log ] tw.nuomi.cn/index.php/bis/login/index.html [运行时间：1.071372s][吞吐率：0.93req/s] [内存消耗：1,985.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'jackytallow',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] tw.nuomi.cn/index.php/bis/login/index.html [运行时间：0.022622s][吞吐率：44.20req/s] [内存消耗：1,191.56kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/lists/index.html?id=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/bis/login/index.html
+[ log ] tw.nuomi.cn/index.php/bis/login/index.html [运行时间：1.066778s][吞吐率：0.94req/s] [内存消耗：1,985.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'jackytallow',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/bis/login/index.html
+[ log ] tw.nuomi.cn/index.php/bis/login/index.html [运行时间：0.024861s][吞吐率：40.22req/s] [内存消耗：1,191.56kb] [文件加载：44]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/lists/index.html?id=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index.html
+[ log ] tw.nuomi.cn/index.php/admin/index.html [运行时间：0.066801s][吞吐率：14.97req/s] [内存消耗：1,310.75kb] [文件加载：46]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ log ] tw.nuomi.cn/index.php/admin/index/welcome.html [运行时间：0.042232s][吞吐率：23.68req/s] [内存消耗：1,138.64kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/apply.html
+[ log ] tw.nuomi.cn/index.php/admin/bis/apply.html [运行时间：1.117236s][吞吐率：0.90req/s] [内存消耗：2,270.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/admin\view\bis\apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:52:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ log ] tw.nuomi.cn/index.php/admin/bis/index.html [运行时间：1.110569s][吞吐率：0.90req/s] [内存消耗：2,268.26kb] [文件加载：62]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:53:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/bis/index.html
+[ log ] tw.nuomi.cn/index.php/admin/bis/index.html [运行时间：1.072874s][吞吐率：0.93req/s] [内存消耗：2,147.85kb] [文件加载：60]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/index.html
+[ log ] tw.nuomi.cn/index.php/admin/deal/index.html [运行时间：1.191592s][吞吐率：0.84req/s] [内存消耗：2,546.49kb] [文件加载：66]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Deal->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/admin\view\deal\index.html [ array (
+  0 => 'categorys',
+  1 => 'citys',
+  2 => 'deals',
+  3 => 'category_id',
+  4 => 'city_id',
+  5 => 'start_time',
+  6 => 'end_time',
+  7 => 'name',
+  8 => 'categoryArrs',
+  9 => 'cityArrs',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:53:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/deal/apply.html
+[ log ] tw.nuomi.cn/index.php/admin/deal/apply.html [运行时间：1.150972s][吞吐率：0.87req/s] [内存消耗：2,364.99kb] [文件加载：62]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/admin\view\deal\apply.html [ array (
+  0 => 'categorys',
+  1 => 'citys',
+  2 => 'deals',
+  3 => 'category_id',
+  4 => 'city_id',
+  5 => 'start_time',
+  6 => 'end_time',
+  7 => 'name',
+  8 => 'categoryArrs',
+  9 => 'cityArrs',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:53:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/logincheck.html
+[ log ] tw.nuomi.cn/index.php/index/user/logincheck.html [运行时间：1.072966s][吞吐率：0.93req/s] [内存消耗：1,988.17kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'jacky',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:53:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login.html
+[ log ] tw.nuomi.cn/index.php/index/user/login.html [运行时间：0.024848s][吞吐率：40.24req/s] [内存消耗：1,195.66kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:53:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/logincheck.html
+[ log ] tw.nuomi.cn/index.php/index/user/logincheck.html [运行时间：1.084256s][吞吐率：0.92req/s] [内存消耗：1,989.35kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'jackytallow',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:53:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login.html
+[ log ] tw.nuomi.cn/index.php/index/user/login.html [运行时间：0.037447s][吞吐率：26.70req/s] [内存消耗：1,195.66kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:53:56+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/logincheck.html
+[ log ] tw.nuomi.cn/index.php/index/user/logincheck.html [运行时间：1.066154s][吞吐率：0.94req/s] [内存消耗：1,989.35kb] [文件加载：52]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tw.nuomi.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'jackytallow',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:53:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login.html
+[ log ] tw.nuomi.cn/index.php/index/user/login.html [运行时间：0.024234s][吞吐率：41.26req/s] [内存消耗：1,195.66kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:54:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/register.html
+[ log ] tw.nuomi.cn/index.php/index/user/register.html [运行时间：0.034351s][吞吐率：29.11req/s] [内存消耗：1,194.65kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->register[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:54:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha.html
+[ log ] tw.nuomi.cn/index.php/captcha.html [运行时间：0.048257s][吞吐率：20.72req/s] [内存消耗：965.65kb] [文件加载：35]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/user/register.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-09T18:54:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login.html
+[ log ] tw.nuomi.cn/index.php/index/user/login.html [运行时间：0.028469s][吞吐率：35.13req/s] [内存消耗：1,196.12kb] [文件加载：42]
+[ info ] [ LANG ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=s4mbk3qa0lc5fq0s3ppbg986j6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tw.nuomi.cn/index.php/index/index/index.html?city=jdz',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'tw.nuomi.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\tools_options\phpstudy\PHPTutorial\WWW\o2o_nuomi\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

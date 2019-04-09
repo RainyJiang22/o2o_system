@@ -1,6 +1,9 @@
 ## Section ScreenShots
 
 ### 下面是部分界面,打造一款基于thinkphp5.0.2的o2o团购网站
+
+#### o2o系统架构
+![](https://github.com/jackytallow/o2o_system/blob/master/screen-style/xmind.png)
 #### 登录界面
 ![](https://github.com/jackytallow/o2o_system/blob/master/screen-style/login.png)
 #### 注册界面

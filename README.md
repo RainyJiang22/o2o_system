@@ -2,15 +2,15 @@
 
 ### 下面是部分界面,打造一款基于thinkphp5.0.2的o2o团购网站
 #### 登录界面
-![](https://github.com/jackytallow/o2o_system/tree/master/screen-style/login.png)
+![](https://github.com/jackytallow/o2o_system/blob/master/screen-style/login.png)
 #### 注册界面
-![](https://github.com/jackytallow/o2o_system/tree/master/screen-style/register.png)
+![](https://github.com/jackytallow/o2o_system/blob/master/screen-style/register.png)
 #### 首页
-![](https://github.com/jackytallow/o2o_system/tree/master/screen-style/首页.png)
+![](https://github.com/jackytallow/o2o_system/blob/master/screen-style/首页.png)
 #### 商品列表页
-![](https://github.com/jackytallow/o2o_system/tree/master/screen-style/商品列表页.png)
+![](https://github.com/jackytallow/o2o_system/blob/master/screen-style/商品列表页.png)
 #### 商品详情页
-![](https://github.com/jackytallow/o2o_system/tree/master/screen-style/商品详情页.png)
+![](https://github.com/jackytallow/o2o_system/blob/master/screen-style/商品详情页.png)
 
 Skip to content
  
